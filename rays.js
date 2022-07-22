@@ -1,8 +1,8 @@
 class Ray {
     constructor(car) {
-        this.rayCounts = 10;
+        this.rayCounts = 4;
         this.rayLenght = 120;
-        this.raySpread = Math.PI/3;
+        this.raySpread = Math.PI/4;
         if (this.rayCounts === 1) {
         } else {
             this.angleBetweenTwoRays = (this.raySpread) / (this.rayCounts - 1);
