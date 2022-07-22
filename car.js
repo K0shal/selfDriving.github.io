@@ -25,7 +25,7 @@ class Car {
             if (type == "MAIN" || type == "AI")
                 this.controls = new Controls();
             this.brain = new NeuralNetwork(
-                [this.ray.rayCounts, 9, 4]
+                [this.ray.rayCounts, 5, 4]
             );
         }
     }
