@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    background-color: rgb(209, 151, 151);
+    text-align: center;
+}
+canvas{
+   background-color: aliceblue;
+}
+
+button{
+    border: 1px solid black;
+    position: absolute;
+    left: 0;
+}
+#save{
+    left:10%;
+}
