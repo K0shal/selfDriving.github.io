@@ -69,7 +69,7 @@ function animate() {
         traffic[i].draw(ctx);
     }
     road.draw(ctx);
-    ctx.globalAlpha = 0.2;
+    ctx.globalAlpha = 0;
 
     for (let i = 0; i < cars.length; i++) {
         cars[i].draw(ctx);
